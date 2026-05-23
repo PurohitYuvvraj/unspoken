@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+
+# Local build and production compiled outputs
+dist/
+release/
+
+# Log files
+*.log
+npm-debug.log*
+
+# macOS internal system files
+.DS_Store

@@ -1,0 +1,16 @@
+{
+  "appId": "com.unspoken.app",
+  "productName": "Unspoken",
+  "asar": true,
+  "directories": {
+    "output": "release"
+  },
+  "mac": {
+    "target": ["dmg"]
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "node_modules/**/*"
+  ]
+}
